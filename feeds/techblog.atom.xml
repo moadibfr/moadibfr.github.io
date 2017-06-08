@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hey My TechBlog is Up !! - TechBlog</title><link href="/" rel="alternate"></link><link href="/feeds/techblog.atom.xml" rel="self"></link><id>/</id><updated>2017-06-08T10:07:00+02:00</updated><entry><title>TechBlog is Up</title><link href="/techblog-is-up.html" rel="alternate"></link><published>2017-06-08T10:07:00+02:00</published><updated>2017-06-08T10:07:00+02:00</updated><author><name>MoAdiB</name></author><id>tag:None,2017-06-08:/techblog-is-up.html</id><summary type="html">&lt;p&gt;Ok hi there, it's 10:07AM I'm gonna start a tach blog on gh pages to see how fast I can get it up.&lt;/p&gt;
+&lt;p&gt;For practical reason I'm starting to write this before going because I'll note all I have to do to get it working...&lt;/p&gt;
+&lt;p&gt;Ok let's start by …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ok hi there, it's 10:07AM I'm gonna start a tach blog on gh pages to see how fast I can get it up.&lt;/p&gt;
+&lt;p&gt;For practical reason I'm starting to write this before going because I'll note all I have to do to get it working...&lt;/p&gt;
+&lt;p&gt;Ok let's start by installing pelican:
+http://docs.getpelican.com/en/3.7.1/quickstart.html&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;mkcd -p  ~/Sources/perso/ghpages-blog
+moadib@IX * ~/Sources/perso/ghpages-blog/sudo pip install --upgrade pelican markdown
+pelican-quickstart
+Welcome to pelican-quickstart v3.7.1.
+
+This script will help you create a new Pelican-based website.
+
+Please answer the following questions so this script can generate the files
+needed by Pelican.
+
+
+&amp;gt; Where do you want to create your new web site? [.]
+&amp;gt; What will be the title of this web site? Hey My TechBlog is Up !!
+&amp;gt; Who will be the author of this web site? MoAdiB
+&amp;gt; What will be the default language of this web site? [en]
+&amp;gt; Do you want to specify a URL prefix? e.g., http://example.com   (Y/n) n
+&amp;gt; Do you want to enable article pagination? (Y/n) y
+&amp;gt; How many articles per page do you want? [10]
+&amp;gt; What is your time zone? [Europe/Paris]
+&amp;gt; Do you want to generate a Fabfile/Makefile to automate generation and publishing? (Y/n) y
+&amp;gt; Do you want an auto-reload &amp;amp; simpleHTTP script to assist with theme and site development? (Y/n) y
+&amp;gt; Do you want to upload your website using FTP? (y/N) n
+&amp;gt; Do you want to upload your website using SSH? (y/N) n
+&amp;gt; Do you want to upload your website using Dropbox? (y/N) n
+&amp;gt; Do you want to upload your website using S3? (y/N) n
+&amp;gt; Do you want to upload your website using Rackspace Cloud Files? (y/N) n
+&amp;gt; Do you want to upload your website using GitHub Pages? (y/N) y
+&amp;gt; Is this your personal page (username.github.io)? (y/N) n
+Done. Your new project is available at /home/moadib/Sources/perso/ghpages-blog
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Ok seems I have everything set up, lets save this under /Sources/perso/ghpages-blog/content/TechBlog-Is-Up.md&lt;/p&gt;
+&lt;p&gt;and generate the blog:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pelican content
+Done: Processed 1 article, 0 drafts, 0 pages and 0 hidden pages in 0.53 seconds.
+&lt;/pre&gt;&lt;/div&gt;</content></entry></feed>

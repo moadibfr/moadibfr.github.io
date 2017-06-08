@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Hey My TechBlog is Up !!</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hey My TechBlog is Up !! Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Hey My TechBlog is Up !! </a></h1>
+                <nav><ul>
+                    <li><a href="/category/techblog.html">TechBlog</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/techblog-is-up.html">TechBlog is Up</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2017-06-08T10:07:00+02:00">
+                Published: Thu 08 June 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/moadib.html">MoAdiB</a>
+        </address>
+<p>In <a href="/category/techblog.html">TechBlog</a>.</p>
+
+</footer><!-- /.post-info --><p>Ok hi there, it's 10:07AM I'm gonna start a tach blog on gh pages to see how fast I can get it up.</p>
+<p>For practical reason I'm starting to write this before going because I'll note all I have to do to get it working...</p>
+<p>Ok let's start by installing pelican:
+http://docs.getpelican.com/en/3.7.1/quickstart.html</p>
+<div class="highlight"><pre><span></span>mkcd -p  ~/Sources/perso/ghpages-blog
+moadib@IX * ~/Sources/perso/ghpages-blog/sudo pip install --upgrade pelican markdown
+pelican-quickstart
+Welcome to pelican-quickstart v3.7.1.
+
+This script will help you create a new Pelican-based website.
+
+Please answer the following questions so this script can generate the files
+needed by Pelican.
+
+
+&gt; Where do you want to create your new web site? [.]
+&gt; What will be the title of this web site? Hey My TechBlog is Up !!
+&gt; Who will be the author of this web site? MoAdiB
+&gt; What will be the default language of this web site? [en]
+&gt; Do you want to specify a URL prefix? e.g., http://example.com   (Y/n) n
+&gt; Do you want to enable article pagination? (Y/n) y
+&gt; How many articles per page do you want? [10]
+&gt; What is your time zone? [Europe/Paris]
+&gt; Do you want to generate a Fabfile/Makefile to automate generation and publishing? (Y/n) y
+&gt; Do you want an auto-reload &amp; simpleHTTP script to assist with theme and site development? (Y/n) y
+&gt; Do you want to upload your website using FTP? (y/N) n
+&gt; Do you want to upload your website using SSH? (y/N) n
+&gt; Do you want to upload your website using Dropbox? (y/N) n
+&gt; Do you want to upload your website using S3? (y/N) n
+&gt; Do you want to upload your website using Rackspace Cloud Files? (y/N) n
+&gt; Do you want to upload your website using GitHub Pages? (y/N) y
+&gt; Is this your personal page (username.github.io)? (y/N) n
+Done. Your new project is available at /home/moadib/Sources/perso/ghpages-blog
+</pre></div>
+
+
+<p>Ok seems I have everything set up, lets save this under /Sources/perso/ghpages-blog/content/TechBlog-Is-Up.md</p>
+<p>and generate the blog:</p>
+<div class="highlight"><pre><span></span>pelican content
+Done: Processed 1 article, 0 drafts, 0 pages and 0 hidden pages in 0.53 seconds.
+</pre></div>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
