@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
 <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hey My TechBlog is Up !! ATOM Feed" />
 <link rel="icon" type="image/png" href="/theme/fav.png" />
-<title>Hey My TechBlog is Up !! </title>
+<title>Hey My TechBlog is Up !!  : Pelican Theme</title>
 <!--[if IE]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <!--[if lte IE 7]>
@@ -18,30 +18,34 @@
 <body>
 <div id="conteneur">
         
-        
-
 <header>
-<h1><a href="" id="site-title">Hey My TechBlog is Up !! </a> : <a href="/pelican-theme.html" id="page-title">Pelican Theme</a></h1>
+<h1>
+<a href="" id="site-title">Hey My TechBlog is Up !! </a> :
+<a href="/pelican-theme.html" id="page-title">Pelican Theme</a></h1>
 <time datetime="2017-06-08T10:40:00+02:00">Thu 08 June 2017</time></header>
 <article>
+<div class="meta" style="text-align:right;"></div>
 <p>Hey I want a theme for my TechBlog !!</p>
 <p>http://www.pelicanthemes.com/</p>
 <p>I think I like this one: http://bricabraque.github.com (https://github.com/getpelican/pelican-themes/tree/master/bricabrac)</p>
 <p>So the readme state:</p>
 <div class="highlight"><pre><span></span>How-to
 
-To use this theme, just extract the archive and copy the bricabrac theme folder to …</pre></div>
-<p><a href="/pelican-theme.html" id="page-title"><u>lire la suite</u></a></p>
-</article>
-<section id="article-list">
-<h2>Tous les articles</h2>
-<ol>
-        
+To use this theme, just extract the archive and copy the bricabrac theme folder to the themes folder in your Pelican site path. Then add the line below to your pelicanconf.py :
 
- 
-<li><a href="/techblog-is-up.html" rel="bookmark" title="Permalien vers TechBlog is Up">TechBlog is Up</a></li>
-    </ol>
-    </section><!-- #article-list -->
+THEME = &#39;themes/bricabrac-pelican-theme&#39;
+</pre></div>
+
+
+<p>I'll do it with git instead:</p>
+<div class="highlight"><pre><span></span>moadib@IX   ~/Sources/perso/git clone --recursive https://github.com/getpelican/pelican-themes
+moadib@IX * ~/Sources/perso/mkdir ghpages-blog/themes
+moadib@IX   ~/Sources/perso/mv pelican-themes/bricabrac ghpages-blog/themes/
+
+vi ghpages-blog/pelicanconf.py
+THEME = &#39;themes/bricabrac&#39;
+</pre></div>
+</article>
 <footer>
 <nav>
 <ul>

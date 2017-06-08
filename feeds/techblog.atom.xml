@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hey My TechBlog is Up !! - TechBlog</title><link href="/" rel="alternate"></link><link href="/feeds/techblog.atom.xml" rel="self"></link><id>/</id><updated>2017-06-08T10:07:00+02:00</updated><entry><title>TechBlog is Up</title><link href="/techblog-is-up.html" rel="alternate"></link><published>2017-06-08T10:07:00+02:00</published><updated>2017-06-08T10:07:00+02:00</updated><author><name>MoAdiB</name></author><id>tag:None,2017-06-08:/techblog-is-up.html</id><summary type="html">&lt;p&gt;Ok hi there, it's 10:07AM I'm gonna start a tach blog on gh pages to see how fast I can get it up.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hey My TechBlog is Up !! - TechBlog</title><link href="/" rel="alternate"></link><link href="/feeds/techblog.atom.xml" rel="self"></link><id>/</id><updated>2017-06-08T10:40:00+02:00</updated><entry><title>Pelican Theme</title><link href="/pelican-theme.html" rel="alternate"></link><published>2017-06-08T10:40:00+02:00</published><updated>2017-06-08T10:40:00+02:00</updated><author><name>MoAdiB</name></author><id>tag:None,2017-06-08:/pelican-theme.html</id><summary type="html">&lt;p&gt;Hey I want a theme for my TechBlog !!&lt;/p&gt;
+&lt;p&gt;http://www.pelicanthemes.com/&lt;/p&gt;
+&lt;p&gt;I think I like this one: http://bricabraque.github.com (https://github.com/getpelican/pelican-themes/tree/master/bricabrac)&lt;/p&gt;
+&lt;p&gt;So the readme state:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;How-to
+
+To use this theme, just extract the archive and copy the bricabrac theme folder to …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Hey I want a theme for my TechBlog !!&lt;/p&gt;
+&lt;p&gt;http://www.pelicanthemes.com/&lt;/p&gt;
+&lt;p&gt;I think I like this one: http://bricabraque.github.com (https://github.com/getpelican/pelican-themes/tree/master/bricabrac)&lt;/p&gt;
+&lt;p&gt;So the readme state:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;How-to
+
+To use this theme, just extract the archive and copy the bricabrac theme folder to the themes folder in your Pelican site path. Then add the line below to your pelicanconf.py :
+
+THEME = &amp;#39;themes/bricabrac-pelican-theme&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I'll do it with git instead:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;moadib@IX   ~/Sources/perso/git clone --recursive https://github.com/getpelican/pelican-themes
+moadib@IX * ~/Sources/perso/mkdir ghpages-blog/themes
+moadib@IX   ~/Sources/perso/mv pelican-themes/bricabrac ghpages-blog/themes/
+
+vi ghpages-blog/pelicanconf.py
+THEME = &amp;#39;themes/bricabrac&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>TechBlog is Up</title><link href="/techblog-is-up.html" rel="alternate"></link><published>2017-06-08T10:07:00+02:00</published><updated>2017-06-08T10:07:00+02:00</updated><author><name>MoAdiB</name></author><id>tag:None,2017-06-08:/techblog-is-up.html</id><summary type="html">&lt;p&gt;Ok hi there, it's 10:07AM I'm gonna start a tach blog on gh pages to see how fast I can get it up.&lt;/p&gt;
 &lt;p&gt;For practical reason I'm starting to write this before going because I'll note all I have to do to get it working...&lt;/p&gt;
 &lt;p&gt;Ok let's start by …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ok hi there, it's 10:07AM I'm gonna start a tach blog on gh pages to see how fast I can get it up.&lt;/p&gt;
 &lt;p&gt;For practical reason I'm starting to write this before going because I'll note all I have to do to get it working...&lt;/p&gt;
@@ -105,5 +130,7 @@ python -m pelican.server
 control+shift+p
 install package&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;install "pp" and "pp-markdown"&lt;/p&gt;
-&lt;/blockquote&gt;</content></entry></feed>
+&lt;p&gt;install "pp" and "pp-markdown"
+``̀&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And https://help.github.com/articles/creating-and-highlighting-code-blocks/ helped ;)&lt;/p&gt;</content></entry></feed>
