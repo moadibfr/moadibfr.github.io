@@ -1,0 +1,44 @@
+baseURL = "http://guibert.io/"
+theme = "gokarna"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+
+# Choose one of emacs, trac or perldoc
+pygmentsStyle = "monokai"
+
+title = "MoAdiB"
+
+[params]
+  # URL for the avatar on homepage
+  avatarURL = "arakis.jpeg"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = "size-xl"
+
+  # Accent color is displayed when you hover over <a> tags
+  accentColor = "#FF4D4D"
+
+  # Keywords relevant for SEO
+  metaKeywords = ["moadib", "moadibfr", "martin", "guibert", "gokarna", "hugo"]
+
+  # Footer text
+  footer = "MoAdiB - Martin Guibert"
+
+  socialIcons = [
+      {name = "github", url = "https://github.com/moadibfr"},
+      {name = "twitter", url = "https://twitter.com/moadibfr"},
+      {name = "spotify", url = "https://open.spotify.com/user/damoadib"},
+      {name = "gmail", url = "https://mailhide.io/en/e/wiupxBrS"},
+      {name = "linkedin", url = "https://www.linkedin.com/in/martin-guibert-850b2129/"},
+    ]
+
+[menu]
+   [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/moadibfr/moadib"
+    weight = 1
+
+    # We use feather-icons: https://feathericons.com/
+    pre = "<span data-feather='github'></span>"
